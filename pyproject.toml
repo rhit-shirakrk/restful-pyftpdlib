@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "restful-pyftpdlib"
+version = "1.0.0"
+dependencies = [
+  "flask",
+  "flask-restful",
+  "pyftpdlib",
+]
+requires-python = ">=3.11"
+authors = [
+  {name = "Ryan Shiraki", email = "shirakrk@rose-hulman.edu"}
+]
+readme = "README.md"
